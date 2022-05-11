@@ -1,0 +1,50 @@
+#tabuleiro{
+    position:absolute;
+    width:800px;
+    height:800px;
+    background-color:#999999;
+    border:solid 1px #555555;
+    left:50%;
+    top:50%;
+    margin-left:-400px;
+    margin-top: -400px;
+    padding:10px;
+    border-radius: 5px;
+}
+
+table{
+    width:100%;
+    height:100%;
+}
+
+td{
+    width:25%;
+    height:25%;
+    background-color:rgb(100, 92, 92);
+    padding:0px;
+}
+
+.cartao, .image{
+    width: 90%;
+    height: 90%;
+    margin:10px 10px 10px 10px;
+    background-color: aqua;
+  /*  transform: rotateY(180deg); */
+}
+
+h1{
+    width:100%;
+    height:100%;
+    font-size:40px;
+    text-align:center;
+    padding-top:60px;
+}
+
+#painel{
+    position:absolute;
+    width:800px;
+    height:200px;
+    left:0px;
+    top:0px;
+}
+

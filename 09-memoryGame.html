@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="./jquery/jquery-3.6.0.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/09-memoryGame.css">
+        <script type="text/javascript" src="./js/09-memoryGame.js"></script>
+        <title>Exercicio 1</title>
+    </head>
+    <body>
+        <div id="tabuleiro">
+            <table>
+                <tr>
+                    <td>
+                        
+                        <div class="cartao" id="peca1" onclick="escolherCartao(this)">
+                            <img id="image1" class="image">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="cartao" id="peca2" onclick="escolherCartao(this)">
+                            <img id="image2" class="image" >
+                        </div>
+                    </td>
+                    <td>
+                        <div class="cartao" id="peca3" onclick="escolherCartao(this)">
+                            <img id="image3" class="image" >
+                        </div>
+                    </td>
+                    <td>
+                        <div class="cartao" id="peca4" onclick="escolherCartao(this)">
+                            <img id="image4" class="image" >
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cartao" id="peca5" onclick="escolherCartao(this)">
+                            <img id="image5" class="image" >
+                        </div>
+                    </td>
+                    <td>
+                        <div class="cartao" id="peca6" onclick="escolherCartao(this)">
+                            <img id="image6" class="image" >
+                        </div>
+                    </td>
+                    <td>
+                        <div class="cartao" id="peca7" onclick="escolherCartao(this)">
+                            <img id="image7" class="image" >
+                        </div>
+                    </td>
+                    <td>
+                        <div class="cartao" id="peca8" onclick="escolherCartao(this)">
+                            <img id="image8" class="image" >
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cartao" id="peca9" onclick="escolherCartao(this)">
+                            <img id="image9" class="image" >
+                        </div>
+                    </td>
+                    <td>
+                        <div class="cartao" id="peca10" onclick="escolherCartao(this)">
+                            <img id="image10" class="image" >
+                        </div>
+                    </td>
+                    <td>
+                        <div class="cartao" id="peca11" onclick="escolherCartao(this)">
+                            <img id="image11" class="image" >
+                        </div>
+                    </td>
+                    <td>
+                        <div class="cartao" id="peca12" onclick="escolherCartao(this)">
+                            <img id="image12" class="image" >
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cartao" id="peca13" onclick="escolherCartao(this)">
+                            <img id="image13" class="image" >
+                        </div>
+                    </td>
+                    <td>
+                        <div class="cartao" id="peca14" onclick="escolherCartao(this)">
+                            <img id="image14" class="image" >
+                        </div>
+                    </td>
+                    <td>
+                        <div class="cartao" id="peca15" onclick="escolherCartao(this)">
+                            <img id="image15" class="image" >
+                        </div>
+                    </td>
+                    <td>
+                        <div class="cartao" id="peca16" onclick="escolherCartao(this)">
+                            <img id="image16" class="image" >
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="painel">
+            <h4 id="ganhou"></h4>
+            <h4 id="numerojogadas"></h4>
+            <button id="jogar" onclick="jogaroutravez()">Jogar outra vez</button>
+        </div>
+    </body>
+</html>
